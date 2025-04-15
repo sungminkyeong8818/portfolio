@@ -1,0 +1,52 @@
+*{margin: 0 auto;}
+
+
+/* pc top header 라인 */
+
+/* pc top1 */
+
+#top1{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+#top1-center{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+/* pc header */
+
+header{
+    clear: both;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid gainsboro;
+}
+
+header-center{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+
+#header1{
+    width: 294px;
+    height: 44px;
+    float: left;
+}
+
+#header2{
+    width: 644px;
+    height: 44px;
+    display: inline-block;
+}
+
+#header3{
+    width: 214px;
+    height: 56px;
+    float: right;
+}

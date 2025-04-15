@@ -1,0 +1,1390 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+html{font-size: 16px;}
+
+@font-face {
+    font-family:SpoqaHanSansNeo-Bold;
+    src: url('../font/SpoqaHanSansNeo-Bold.woff');
+}
+
+@font-face {
+    font-family:SpoqaHanSansNeo-Light;
+    src: url('../font/SpoqaHanSansNeo-Light.woff');
+}
+
+@font-face {
+    font-family:SpoqaHanSansNeo-Medium;
+    src: url('../font/SpoqaHanSansNeo-Medium.woff');
+}
+
+@font-face {
+    font-family:SpoqaHanSansNeo-Regular;
+    src: url('../font/SpoqaHanSansNeo-Regular.woff');
+}
+
+
+
+
+/*header*/
+header{
+    width: 100%;
+    height: 790px;
+    position: relative;
+}
+
+/*배너*/
+header  #benner{
+    width: 100%;
+    height: 790px;
+}
+
+   
+
+/*배너 상단*/
+header  #benner-menu-box
+{
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(to bottom , rgba(0,0,0,0.5),rgba(0,0,0,0)); 
+    position: absolute;
+    top: 0;
+    
+}
+
+
+    /*상단 메뉴*/
+    #benner-menu-box  #header-menu
+    {
+        width: 1080px;
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+        #header-menu  .menu-flex
+        {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        #header-menu  ul li
+        {
+            margin: 0;
+            cursor: pointer;
+        }
+
+        /*로고*/ 
+        #header-menu  #logo-box
+        {
+            margin-top: 30px;
+            margin-left: 0;
+        }
+
+
+        /*메뉴*/
+        #header-menu  #menu1
+        {
+            width: 370px;
+            height: auto;
+            font-family:SpoqaHanSansNeo-Bold;
+            font-size: 1rem;
+            line-height: 110px;
+            color: #fff;
+        }
+
+        /*언어,검색,메뉴아이콘박스*/
+        #header-menu  #menu2
+        {
+            width: 132px;
+            height: auto;
+            margin-right: 0;
+            line-height: 115px;
+        }
+
+      
+      
+
+        
+
+
+
+/*배너 중앙*/
+header  #benner-title-box
+{
+    width: 100%;
+    height: 337px;
+    position: absolute;
+    top: 30%;
+    
+}
+
+    /*배너 타이틀*/
+    #benner-title-box  #benner-title
+    {
+        width: 235px;
+        height: 260px;    
+    }
+
+        #benner-title  .title-line-top
+        {
+            width: 226px;
+            height: 29px;
+            border: 5px solid rgba(255, 255, 255, 0.7);
+            border-bottom: none;
+        }
+
+        #benner-title  #benner-title-txt
+        {
+            width: 235px;
+            height: 196px;
+
+        }
+            #benner-title-txt  p
+            {
+                text-align: center;
+                font-size: 2.7rem;
+                line-height: 60px;
+                padding-top: 10px;
+                font-family:SpoqaHanSansNeo-Medium;
+                color: gray;
+            }
+
+
+        #benner-title  .title-line-bottom
+        {
+            width: 226px;
+            height: 29px;
+            border: 5px solid rgba(255, 255, 255, 0.7);
+            border-top: none;
+        }
+
+
+    /*배너서브타이틀*/
+    #benner-subtitle-txt 
+    {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 1.2rem;
+        font-family:SpoqaHanSansNeo-Regular;
+        color: gray;
+    }   
+
+
+
+/*브랜드소개*/
+#sec1
+{
+    clear: both;
+    width: 100%;
+    height: 1000px;
+}
+
+#sec1  #sec1-1080
+    {
+        width: 1080px;
+        height: 1000px;
+        position: relative;
+    }
+
+    /*sec1-배경텍스트*/
+        #sec1-1080  .sec1-bg
+        {
+            font-size: 10rem;
+            font-family:SpoqaHanSansNeo-Bold;
+            color: rgba(227, 227, 227, 0.3);
+            z-index: -1;
+        }
+
+
+        /*INNOVATIVE*/
+        #sec1-1080   #sec1-bg-text1
+        {
+            position: absolute;
+            top: 5%;
+            right: 0;
+            color: #e9e9e9;
+        }
+          
+
+        /*SAFELY*/
+        #sec1-1080   #sec1-bg-text2
+        {
+            position: absolute;
+            bottom: 5%;
+            left: 0;
+            color: #e9e9e9;
+        }
+        
+
+        /*sec1-빈박스*/
+        .blankbox
+        {
+            width: 100%;
+            height: 150px;
+        }
+
+        .sec1-blankbox2
+        {
+            width: 100%;
+            height: 100px;
+        }
+
+        /*sec1-1, sec1-2 박스*/
+        #sec1-1080  .sec1-1-box
+        {
+            width: 100%;
+            height: 300px;
+            
+        }
+
+            /*sec1-이미지박스*/
+            .sec1-1-box  .sec1-1-img-box
+            {
+                width: 500px;
+                height: 300px;
+            }
+
+            #sec1-1-img1
+            {
+            float:left;
+            }
+
+            #sec1-1-img2
+            {
+            float:right;
+            }
+            
+
+            /*sec1-텍스트박스*/
+            .sec1-1-box  .sec1-1-txt-box
+            {
+                width: 580px;
+                height: 300px;
+            }
+
+            #sec1-1-txt1
+            {
+            float:right;
+            }
+
+            #sec1-1-txt2
+            {
+            float:left;
+            }
+
+                /*sec1-1,sec1-2 타이틀*/
+                .sec1-1-txt-box  .sec1-1-title-txt
+                {
+                    text-align: center;
+                    font-size: 1.5rem;
+                    color: #381c11;
+                    font-family:SpoqaHanSansNeo-Bold;
+                    margin-top: 90px;
+                }
+
+                /*sec1-1, sec1-2 내용*/
+                .sec1-1-txt-box  .sec1-1-subtitle-txt
+                {
+                    text-align: center;
+                    font-size: 0.8rem;
+                    color: #9c9c9c;
+                    font-family:SpoqaHanSansNeo-Regular;
+                    line-height: 20px;
+                    margin-top: 15px;
+                }
+
+                /*sec1-1 타이틀*/
+                .sec1-1-txt-box  #sec1-1-title
+                {
+                    margin-top: 110px;
+                }
+
+                .sec1-1-txt-box   .sec1-1-subtitle-txt  span
+                {
+                    font-size: 1rem;
+                    font-family:SpoqaHanSansNeo-Bold;
+                    color: #381c11;
+                }
+
+                /*sec1-2 타이틀*/
+                .sec1-1-txt-box  #sec1-2-title
+                {
+                    margin-top: 95px;
+                }
+
+
+
+
+  
+/*제품소개*/                
+#sec2
+{
+    clear: both;
+    width: 100%;
+    height: 767px;
+    background-color: antiquewhite;
+    background: url('../img/product-big-11.jpg') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+
+    #sec2  #sec2-opacity-bg
+    {
+        width: 100%;
+        height: 767px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    #sec2-opacity-bg  #sec2-1080
+    {
+        width: 1080px;
+        height: 767px;
+    }
+
+        /*제품소개 전체박스*/
+        #sec2-1080  #product-alltitle-box
+        {
+            width: 100%;
+            height: 244px;
+            color: #fff;
+        }
+
+            /*타이틀 전체박스*/
+            #product-alltitle-box  #product-ex-titlebox
+            {
+                width: 100%;
+                height: 41px;
+                padding-top: 90px;
+            }
+
+                /*제품소개 타이틀*/
+                .title-txt
+                {
+                    height: 41px;
+                    float: left;
+                    font-size: 2.5rem;
+                    line-height: 41px;
+                    font-family:SpoqaHanSansNeo-Bold;
+                    margin-left: 83px;
+                }
+
+                /*더보기버튼*/
+                .viewmore-btn
+                {
+                    height: 41px;
+                    float: right;
+                    line-height: 41px;
+                    font-family:SpoqaHanSansNeo-Regular;
+                    font-size: 0.8rem;
+                    cursor: pointer;
+                    
+                }
+
+                    /*더보기 버튼이미지*/
+                    .viewmore-btn::after
+                    {
+                        content: '';
+                        width: 21px;
+                        height: 6px;
+                        display: inline-block;
+                        background-image: url('../img/Viewmore-btn.png');
+                        margin-bottom: 3px;
+                    }
+
+                    /*더보기 버튼이미지 hover*/
+                    .viewmore-btn:hover::after
+                    {
+                        content: '';
+                        width: 21px;
+                        height: 6px;
+                        display: inline-block;
+                        background-image: url('../img/Viewmore-btn-2.png');
+                        margin-bottom: 3px;
+                    }
+
+                  
+                    .viewmore-btn:hover
+                    {
+                        font-family:SpoqaHanSansNeo-Bold;
+                        color: #945166;
+                    }
+                    
+             
+
+
+            /*서브내용*/ 
+            #product-alltitle-box  #product-ex-sub-title
+            {
+                font-size: 0.8rem;
+                line-height: 50px;
+                font-family:SpoqaHanSansNeo-Regular;
+                margin-left: 83px;
+            }
+
+
+
+    /*제품 전체박스*/        
+    #sec2-1080  #product-allbox
+    {
+        width: 100%;
+        height: 366px;
+    }        
+
+         #product-allbox  #product-show-box
+        {
+            width: 910px;
+            height: 366px;
+        }
+
+            /*제품인테리어 이미지박스*/
+            #product-show-box  #product-interior-img
+            {
+                width: 450px;
+                height: 366px;
+                float: left;
+            }
+
+
+            /*인테리어에 사용된 제품설명박스*/
+            #product-show-box  #product-interior-txtbox
+            {
+                width: 402px;
+                height: 366px;
+                float: right;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+
+                /*제품설명 큰박스(벽지,바닥재)*/
+                #product-interior-txtbox  .product-ex-bigbox
+                {
+                    width: 402px;
+                    height: 130px;
+                    margin-right: 0;
+                    cursor: pointer;
+                }
+
+
+                    /*hover-색변경*/
+                    #product-interior-txtbox  .product-ex-bigbox:hover
+                    {
+                        background-color: rgba(0, 0, 0, 0.5);
+                        transition: 0.4s;
+                    }
+
+
+                    /*제품설명 작은박스*/
+                    .product-ex-bigbox  .product-ex-smallbox
+                    {
+                        width: 370px;
+                        height: 100px;
+                        margin-top: 14px;
+                    }
+
+
+                        /*제품이미지박스*/
+                        .product-ex-smallbox .product-imgbox
+                        {
+                            width: 100px;
+                            height: 100px;
+                            float: left;
+                        }
+
+
+                         /*제품텍스트박스*/
+                         .product-ex-smallbox  .product-txtbox
+                         {
+                            width: 242px;
+                            height: 100px;
+                            float: right;
+                            color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                         }
+
+                                
+                                /*제품타이틀*/
+                                .product-txtbox  .product-title{
+                                    font-size: 1.4rem;
+                                    font-family:SpoqaHanSansNeo-Bold;
+                                    margin-left: 0;
+                                    
+                                }
+
+
+                                /*제품설명*/
+                                .product-txtbox  .product-ex
+                                {
+                                    font-family:SpoqaHanSansNeo-Bold;
+                                    font-size: 1rem;
+                                    line-height: 20px;
+                                    margin-left: 0;
+                                   
+                                }
+
+                                    .product-ex  span
+                                    {
+                                        font-family:SpoqaHanSansNeo-Regular;
+                                        font-size: 0.8rem;
+                                    }
+
+
+
+
+
+/*인테리어 팁*/                                
+#sec3
+{
+    clear: both;
+    width: 100%;
+    height: 1150px;
+}
+
+   #sec3  #sec3-1080
+    {
+        width: 1080px;
+        height: 1150px;
+    }
+
+    /*인테리어팁박스*/
+    #sec3-1080  #interiortip-box
+    {
+        width: 100%;
+        height: 850px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+        #interiortip-box ul{
+            margin: 0;
+        }
+
+
+
+        /*팁 세로박스1*/
+        #interiortip-box  #interiortip-column1
+        {
+            width: 320px;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+            /*공부방 인테리어*/
+            #interiortip-box  #interiortip-column1 li #tipbox-1
+            {
+                width: 320px;
+                height: 230px;
+                background-image: url('../img/interiortip-1-study.jpg');
+                cursor: pointer;
+            }
+
+
+                #tipbox-1  #tipbox-1-opacity
+                {
+                    line-height: 230px;
+                }
+
+               
+                /*인테리어 팁 전체 투명도 박스*/
+                .interiortip-opacity
+                {
+                    opacity: 0;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    background-color:rgba(0, 0, 0, 0.4);
+                    font-family:SpoqaHanSansNeo-Regular;
+                    font-size: 1.6rem;
+                    color: #fff;
+                    
+                }
+
+
+
+                 /*인벤토리 팁 hover*/
+               #interiortip-box ul li div  .interiortip-opacity:hover
+               {
+                    opacity: 1;
+                    transition: 0.4s;
+                    
+               }
+
+
+
+
+            /*침실 인테리어*/
+            #interiortip-box  #interiortip-column1 li #tipbox-2
+            {
+                width: 320px;
+                height: 392px;
+                background-image: url('../img/interiortip-4-bedroom.jpg');
+                cursor: pointer;
+            }
+
+                #tipbox-2  #tipbox-2-opacity
+                {
+                    line-height: 392px;
+                }
+
+
+            
+
+
+
+            /*원룸 인테리어*/
+            #interiortip-box  #interiortip-column1 li #tipbox-3
+            {
+                width: 320px;
+                height: 190px;
+                background-image: url('../img/interiortip-6-oneroom.jpg');
+                cursor: pointer;
+            }
+
+                #tipbox-3  #tipbox-3-opacity
+                {
+                    line-height: 190px;
+                }
+
+
+
+
+        /*팁 세로박스2*/
+        #interiortip-box  #interiortip-column2
+        {
+            width: 395px;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+
+             /*오피스 인테리어*/
+            #interiortip-box #interiortip-column2 li #tipbox-4
+            {
+                width: 395px;
+                height: 290px;
+                background-image: url('../img/interiortip-2-meeting.jpg');
+                cursor: pointer;
+            }
+
+
+                #tipbox-4  #tipbox-4-opacity
+                {
+                    line-height: 290px;
+                }   
+
+
+
+
+            /*타이틀박스*/
+            #interiortip-box  #interiortip-column2 li #tipbox-5
+            {
+                width: 395px;
+                height: 290px;
+                text-align: center;
+            }
+
+                /*인테리어팁 타이틀*/
+                #tipbox-5  #interiortip-title
+                {
+                    height: auto;
+                    font-size: 3rem;
+                    color: #945166;
+                    font-family:SpoqaHanSansNeo-Bold;
+                    padding-top: 75PX;
+                } 
+
+                    #interiortip-title  span
+                    {
+                        font-size: 3.5rem;
+                        color: #381c11;
+                    }
+
+                
+                    /*인테리어팁 더보기 버튼*/
+                    .tip-viewmore-btn
+                    {
+                        height: 41px;
+                        line-height: 160px;
+                        font-family:SpoqaHanSansNeo-Regular;
+                        font-size: 0.8rem;
+                        cursor: pointer;
+                        color: #381c11;
+                    }
+
+                        .tip-viewmore-btn::after
+                        {
+                            content: '';
+                            width: 21px;
+                            height: 6px;
+                            display: inline-block;
+                            background-image: url('../img/Viewmore-btn-3.png');
+                            margin-bottom: 3px;
+                        }
+
+
+                        /*더보기버튼 hover*/
+                        .tip-viewmore-btn:hover
+                        {
+                            color: #945166;
+                            font-family:SpoqaHanSansNeo-Bold;
+                        }
+
+                        .tip-viewmore-btn:hover::after
+                        {
+                            content: '';
+                            width: 21px;
+                            height: 6px;
+                            display: inline-block;
+                            background-image: url('../img/Viewmore-btn-2.png');
+                            margin-bottom: 3px;
+                            
+                        }
+
+                   
+
+                    
+
+            /*화장실 인테리어*/
+            #interiortip-box  #interiortip-column2 li #tipbox-6
+            {
+                width: 395px;
+                height: 230px;
+                background-image: url('../img/interiortip-7-bathroom.jpg');
+                cursor: pointer;
+            }    
+
+                
+                 #tipbox-6  #tipbox-6-opacity
+                {
+                    line-height: 230px;
+                } 
+
+
+
+        /*팁 세로박스3*/
+        #interiortip-box  #interiortip-column3
+        {
+            width: 320px;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+            
+
+            /*거실 인테리어*/
+            #interiortip-box  #interiortip-column3 li #tipbox-7
+            {
+                width: 320px;
+                height: 250px;
+                background-image: url('../img/interiortip-3-living.jpg');
+                cursor: pointer;
+            }
+
+                 #tipbox-7  #tipbox-7-opacity
+                {
+                    line-height: 250px;
+                } 
+
+
+
+            /*식당 인테리어*/
+            #interiortip-box  #interiortip-column3 li #tipbox-8
+            {
+                width: 320px;
+                height: 400px;
+                background-image: url('../img/interiortip-5-restaurant.jpg');
+                cursor: pointer;
+            }
+
+
+                 #tipbox-8 > #tipbox-8-opacity
+                {
+                    line-height: 400px;
+                } 
+                
+
+
+
+            /*카페 인테리어*/
+            #interiortip-box  #interiortip-column3 li #tipbox-9
+            {
+                width: 320px;
+                height: 160px;
+                background-image: url('../img/interiortip-8-cafe.jpg');
+                cursor: pointer;
+            }        
+
+                #tipbox-9  #tipbox-9-opacity
+                {
+                    line-height: 160px;
+                } 
+
+
+
+
+
+
+/*포트폴리오*/
+#sec4
+{
+   width: 100%;
+   height: 880px;
+   background-color: #f7f7f7; 
+}                   
+
+    #sec4  #sec4-1080
+    {
+        width: 1080px;
+        height: 880px;
+    }
+
+        /*포트폴리오 상단박스*/
+        #sec4-1080  #Portfolio-top-box
+        {
+            width: 100%;
+            height: 201px;
+            color: #2d0909;
+            text-align: center;
+        }
+
+
+
+
+            /*타이틀*/
+            #Portfolio-top-box  #Portfolio-title-txt
+           {
+                width: 100%;
+                height: auto;
+                font-size: 2.5rem;
+                font-family:SpoqaHanSansNeo-Bold;
+                line-height: 30px;
+                padding-top: 80px;
+           }
+
+
+                #Portfolio-title-txt span
+                {
+                    font-size: 1rem;
+                }
+
+
+            /*서브텍스트*/    
+            #Portfolio-top-box  #Portfolio-subtitle-txt
+            {
+                width: 100%;
+                height: auto;
+                font-size: 1.2rem;
+                font-family:SpoqaHanSansNeo-Regular;
+                line-height: 53px;
+                
+            }
+
+
+
+
+         /*포트폴리오 메뉴*/   
+        #sec4-1080  #Portfolio-menu-box
+        {
+            width: 100%;
+            height: 90px;
+        }
+
+
+            #Portfolio-menu-box  #Portfolio-menu
+            {
+                width: 400px;
+                height: auto;
+                transform: translateY(70%);
+                text-align: center;
+                
+            }
+
+                
+
+
+                .pofo-menus-box
+                {
+                    display: flex;
+                    justify-content: space-between;
+                }   
+
+                    .pofo-menus-box .pofo-menus{
+                        text-decoration: none;
+                    }
+
+                
+                        .pofo-menus-box li{
+                            font-family:SpoqaHanSansNeo-Regular;
+                            margin: 0;
+                            text-align: center;
+                            line-height: 35px;
+                            color: #381c11;
+                            cursor: pointer;
+                            ;
+                        }
+
+
+                        /*메뉴클릭시 나오는 소개박스*/
+                        .pofo-menus-box li.menu-btns-active
+                        {
+                            background-color: #a7a7a7;
+                            color: #fff; 
+                        }
+
+                      
+
+                        /*포토폴리오 메뉴 버튼 hover*/
+                        .pofo-menus-box li:hover
+                        {
+                            background-color: #a7a7a7;
+                            color: #fff;
+                            transition: 0.4s
+                        }
+                
+
+                        /*오피스*/
+                        .pofo-menus-box .pofo-menus  #opice-btn
+                        {
+                            width: 99px;
+                            height: 35px;
+                            border: 2px solid #a7a7a7;
+                            
+                        }
+
+
+            
+
+                        /*숙박시설*/
+                        .pofo-menus-box .pofo-menus  #lodgment-btn
+                        {
+                            width: 99px;
+                            height: 35px;
+                            border: 2px solid #a7a7a7;
+                        }
+
+
+                        /*주택 및 아파트*/
+                        .pofo-menus-box .pofo-menus  #Housing-btn
+                        {
+                            width: 151px;
+                            height: 35px;
+                            border: 2px solid #a7a7a7;
+                        }
+
+
+
+
+
+        /*포트폴리오 소개박스*/
+        #sec4-1080  .Portfolio-ex-box
+        {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            display: none;
+        }        
+
+            .pofo-ex
+            {
+                display: none;
+            }
+
+             /*작은 이미지 클릭시 나오는 소개박스*/
+            .pofo-active
+            {
+              display: block;  
+            }
+
+            /*메뉴클릭시 나오는 소개박스*/
+            #sec4-1080 .Portfolio-ex-box.portfolio-show
+            {
+                display: block;
+            }
+
+
+
+
+            /*큰 이미지 박스*/
+            .Portfolio-ex-box  .Portfolio-big-img
+            {
+                width: 500px;
+                height: 400px;
+                float: left;
+                
+            }
+
+
+
+            /*이미지 타이틀*/
+            .Portfolio-ex-box .Portfolio-img-title
+            {
+                width: 580px;
+                height: 400px;
+                float: right;
+                color: #381c11;
+            }
+
+             
+
+
+
+                /*포트폴리오 ex 전체 타이틀박스*/
+                .Portfolio-img-title .Portfolio-title-box
+                {
+                    width: 100%;
+                    height: auto;
+                    transform: translateY(50%);
+                    text-align: center;
+                    
+                }
+
+
+
+
+
+                    /*타이틀 텍스트*/
+                    .Portfolio-title-box .img-title
+                    {
+                        width: 100%;
+                        height: auto;
+                        line-height: 30px;
+                        font-size: 2.2rem;
+                        text-align: center;
+                        font-family:SpoqaHanSansNeo-Bold;
+                        line-height: 80px;
+
+                    }
+
+                   
+
+                        .img-title  span
+                        {
+                            font-family:SpoqaHanSansNeo-Regular;
+                        }
+
+
+                    
+
+                    /*서브내용*/
+                    .Portfolio-title-box  #img-subtitle
+                    {
+                        width: 100%;
+                        height: auto;
+                        font-family:SpoqaHanSansNeo-Regular;
+                        font-size: 0.8rem;
+                        text-align: center;
+                    }
+
+                        #img-subtitle span
+                        {
+                            font-family:SpoqaHanSansNeo-Bold;
+                            font-size: 1rem;
+                        }
+
+
+                        
+
+                        /*더보기버튼*/
+                        .portfolio-viewmore-btn
+                        {
+                            margin-top: 35px;
+                            height: 41px;
+                            font-family:SpoqaHanSansNeo-Regular;
+                            font-size: 0.8rem;
+                            cursor: pointer;
+                            
+                        }
+
+                            /*더보기 버튼이미지*/
+                            .portfolio-viewmore-btn::after
+                            {
+                                content: '';
+                                width: 21px;
+                                height: 6px;
+                                display: inline-block;
+                                background-image: url('../img/Viewmore-btn-3.png');
+                                margin-bottom: 3px;
+                            }
+
+                            /*더보기 버튼이미지 hover*/
+                            .portfolio-viewmore-btn:hover::after
+                            {
+                                content: '';
+                                width: 21px;
+                                height: 6px;
+                                display: inline-block;
+                                background-image: url('../img/Viewmore-btn-2.png');
+                                margin-bottom: 3px;
+                            }
+
+                        
+                            .portfolio-viewmore-btn:hover
+                            {
+                                font-family:SpoqaHanSansNeo-Bold;
+                                color: #945166;
+                            }
+                    
+
+
+            
+                
+                
+            /*작은 이미지 박스*/
+            .Portfolio-ex-box  .small-img-box
+            {
+                width: 700px;
+                height: 200px;
+                position: absolute;
+                bottom: -27%;
+                right: 0;
+                display: flex;
+                justify-content: space-around;
+                
+            } 
+            
+
+                .small-img-box  .small-img
+                {
+                    width: 700px;
+                    height: 146px;
+                    margin-top: 30px;
+                   
+                }
+                
+                    .small-img li
+                    {
+                        width: 100%;
+                        height: auto;
+                        margin-left: 20px;
+                    }
+
+
+                    .small-img  .slick-list
+                    {
+                        width: 700px;
+                        height: 200px;
+                    } 
+
+
+
+
+/*상담신청*/
+#sec5
+{
+    width: 100%;
+    height: 350px;
+    background:url('../img/consulting-bg.jpg') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+
+
+#sec5-opacity-bg
+{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+    #sec5  #sec5-1080
+    {
+        width: 1080px;
+        height: 350px;
+    }
+
+        /*타이틀*/
+        #sec5-1080 #consulting-titlebox
+        {
+            width: 100%;
+            height: 170px;
+            text-align: center;
+        }
+
+
+            
+            #consulting-titlebox #consulting-title
+            {
+                width: 100%;
+                height: auto;
+                font-family:SpoqaHanSansNeo-Bold;
+                color: #fff;
+                font-size: 2.5rem;
+                line-height: 90px;
+                padding-top: 40px;
+
+            }
+
+
+            #consulting-titlebox #consulting-subtitle
+            {
+                width: 100%;
+                height: auto;
+                font-family:SpoqaHanSansNeo-Regular;
+                color: #fff;
+                font-size: 1.2rem;
+                line-height: 30px;
+                
+            }
+
+
+        /*상담신청버튼*/   
+        #sec5-1080 #consulting-btnbox
+        {
+            width: 100%;
+            height: 176px;
+            padding-top: 70px;
+        }
+
+            #consulting-btnbox #consulting-btn
+            {
+                width: 147px;
+                height: 50px;
+                background-color: #fff;
+                font-family:SpoqaHanSansNeo-Regular;
+                font-size: 1.3rem;
+                border-radius: 30px;
+                text-align: center;
+                line-height: 50px;
+                color: #2d0909;
+                cursor: pointer;
+            }   
+
+            #consulting-btnbox #consulting-btn:hover
+            {
+                background-color:#945166;
+                color: #fff;
+            }
+
+
+
+
+footer
+{
+    width: 100%;
+    height: 290px;
+    background-color: #5d5a5a;
+}
+
+    #footer-1080
+    {
+        width: 1080px;
+        height: 250px;
+        background-color: thistle;
+    }
+
+
+    
+        #footer-1080 #footer1-1
+        {
+            width: 750px;
+            height: 250px;
+            background-color: #5d5a5a;
+            float: left;
+        }
+
+
+            #footer1-1 #footer-title
+            {
+                width: 100%;
+                height: 100px;
+               
+            }
+
+                #footer-title #footer-logo-box
+                {
+                    width: 120px;
+                    float: left;
+                    margin-top: 30px;
+                }
+
+                #footer-title #footer-title-text
+                {
+                    line-height: 45px;
+                    float: left;
+                    margin-top: 30px;
+                }
+
+                #footer1-1 > p
+                {
+                    line-height: 25px;
+                }
+
+
+                    #footer-title-text p
+                    {
+                        float: left;
+                        margin-left: 15px;
+                        font-family:SpoqaHanSansNeo-Regular;
+                        font-size: 0.9rem;
+                        color: #fff;
+                    }
+
+                    #footer-title-text #footer-title-text-1-2
+                    {
+                        color: #ffa9c4;
+                        font-family:SpoqaHanSansNeo-Bold;
+                    }
+
+
+            #footer1-1 #footer-contents
+            {
+                width: 100%;
+                height: 150px;
+                color: #fff;
+                font-size: 0.8rem;
+                line-height: 20px;
+                font-family:SpoqaHanSansNeo-Regular;
+                margin-top: 60px;
+            }  
+            
+            
+
+        #footer-1080 #footer1-2
+        {
+            width: 330px;
+            height: 250px;
+            background-color: #5d5a5a;
+            float: right;
+        }
+
+            #footer1-2 #footer-icons-box
+            {
+                width: 100%;
+                height: 100px;
+                background-color: #5d5a5a;
+            }
+
+
+        
+
+
+
+
+
+
+
+
+
+
+                  
+

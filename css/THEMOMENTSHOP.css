@@ -1,0 +1,276 @@
+*{margin: 0 auto;}
+
+
+
+/*pc top header 라인*/
+
+/*pc top1*/
+
+#top1{
+    width: 100%;
+    height: 68px;
+    background-color: black;
+    overflow: auto;
+}
+
+#top1-center{
+    width: 1066px;
+    height: 35px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/*pc header*/
+
+header{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#header-center{
+    width: 1500px;
+    height: 50px;
+    text-align: center;
+}
+
+#header1{
+    width: 252px;
+    height: 27px;
+    float: left;
+    margin-top: 11px;
+}
+
+#header2{
+    width: 663px;
+    height: 41px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+#header3{
+    width: 172px;
+    height: 48px;
+    float: right;
+}
+
+/*pc main*/
+
+main{
+    clear: both;
+    width: 100%;
+    height: 752px;
+    border-bottom: 2px solid gainsboro;
+    text-align: center;
+}
+
+#main-center{
+    width: 1500px;
+    height: 752px;
+}
+
+/*pc top2*/
+
+#top2{
+    clear: both;
+    width: 100%;
+    height: 93px;
+    border-bottom: 2px solid gainsboro;
+}
+
+#top2-center{
+    width: 1500px;
+    height: 93px;
+}
+
+#top2-1{
+    width: 505px;
+    height: 61px;
+    float: left;
+    margin-top: 16px;
+}
+
+#top2-2{
+    width: 885px;
+    height: 51px;
+    float: right;
+    margin-top: 21px;
+}
+
+/*pc article*/
+
+article{
+    clear: both;
+    width: 1500px;
+    height: 434px;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+/*pc section*/
+
+section{
+    clear: both;
+    width: 100%;
+    height: 1069px;
+}
+
+#section-center{
+    width: 1500px;
+    height: 1069px;
+}
+
+/*pc footer*/
+
+#footer{
+    clear: both;
+    width: 100%;
+    height: 425px;
+    background-color: black;
+}
+
+#footer-center{
+    width: 1500px;
+    height: 425px;
+    background-color: black;
+    text-align: center;
+}
+
+#m-top1{display: none;}
+#m-header{display: none;}
+#m-main1{display: none;}
+#m-main2{display: none;}
+#m-main3{display: none;}
+#mtop2{display: none;}
+#m-section{display: none;}
+#m-footer{display: none;}
+
+
+/*mobile top*/
+
+@media screen and (max-width:700px){
+    #top1{display: none;}
+    header{display: none;}
+    main{display: none;}
+    #top2{display: none;}
+    article{display: none;}
+    section{display: none;}
+    #footer{display: none;}
+
+    #m-top1{
+        clear: both;
+        display: block;
+        width: 100%;
+        height: 33px;
+        background-color: black;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #m-top1-center{
+        width: 233px;
+        height: 23px;
+    }
+    
+    /*mobile header*/
+    
+    #m-header{
+        clear: both;
+        display: block;
+        width: 100%;
+        height: 54px;
+    }
+    
+    #m-header-center{
+        width: 100%;
+        height: 54px;
+        text-align: center;
+    }
+    
+    #m-header1{
+        float: left;
+        margin-top: 12px;
+    }
+    
+    #m-header2{
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    #m-header3{
+        float: right;
+        margin-top: 7px;
+    }
+
+    /*mobile main*/
+
+    #m-main1{
+        clear: both;
+        display: block;
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid gainsboro;
+        overflow: hidden;
+    }
+
+    #m-main2{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid gainsboro;
+    }
+
+    #m-main3{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid gainsboro;
+    }
+
+    /*mobile top*/
+
+    #mtop2{
+        clear: both;
+        display: block;
+        width: 100%;
+        height: 255px;
+        border-bottom: 2px solid gainsboro;
+    }
+
+    #mtop2-center{
+        width: 100%;
+        height: auto;
+    }
+
+    /*mobile section*/
+
+    #m-section{
+        clear: both;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #m-section-center{
+        width: 100%;
+        height: auto;
+    }
+
+    /*mobile footer*/
+
+    #m-footer{
+        clear: both;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #m-footer-center{
+        width: 100%;
+        height: auto;
+    }
+
+    img{width: 100%;
+        height: auto;}
+}
